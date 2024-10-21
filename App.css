@@ -1,0 +1,16 @@
+div{
+  margin:100px 100px;
+}
+table{
+  background-color: rgb(142, 142, 142);
+  border : 1px solid black;
+  border-collapse : collapse;
+  width:1000px;
+  height:200px;
+}
+th,td{
+  border : 1px solid black;
+}
+tr:nth-child(even){
+  background-color: #dddddd;
+}
